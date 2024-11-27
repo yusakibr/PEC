@@ -1,0 +1,51 @@
+body {
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+h1,
+p,
+span {
+  text-align: center;
+}
+
+h1 {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background: #cfcfc4;
+  max-width: 100%;
+}
+
+.square {
+  background: #ddd;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.case {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+span {
+  text-align: center;
+  display: grid;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  background: #333333;
+  border-radius: 15px;
+  display: grid;
+  padding: 10px 20px;
+  color: #9999ff;
+}
+
+P {
+  display: grid;
+  max-width: 100%;
+}
